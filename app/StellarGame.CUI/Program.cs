@@ -7,8 +7,8 @@ using System.Text;
 Console.OutputEncoding = Encoding.Unicode;
 // Console.BackgroundColor = ConsoleColor.Gray;
 var test = Console.LargestWindowHeight;
-Console.WindowWidth = 80;
-Console.WindowHeight = 40;
+// Console.WindowWidth = 80;
+// Console.WindowHeight = 40;
 
 var renderer = new ScreenRenderer();
 
@@ -17,7 +17,8 @@ renderer.Render();
 
 // test....
 Console.SetCursorPosition(10,10);
-Console.Write("screen renderer done.");
+// Console.Write("screen renderer done. ");
+Console.WriteLine(Console.OutputEncoding);
 
 
 // Console.WriteLine("Hello, World!");
